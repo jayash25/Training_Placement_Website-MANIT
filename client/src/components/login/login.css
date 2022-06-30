@@ -1,0 +1,37 @@
+.login {
+  /* border: 1px solid red; */
+  height: 100vh;
+}
+.row {
+  /* border: 1px solid green; */
+}
+.info {
+  /* border: 1px solid pink; */
+  color: rgb(71, 69, 69);
+}
+.info h2 {
+  font-weight: 900;
+  font-family: "Trebuchet MS", sans-serif;
+  /* font-family: Georgia, serif; */
+}
+.form {
+  /* border: 1px solid blue; */
+  padding: 3%;
+  border-radius: 15px;
+  transition: 0.2s;
+  color: gray;
+}
+.form:hover {
+  box-shadow: 0px 0px 10px 1px rgb(138, 135, 135);
+}
+.form input {
+  width: 100%;
+}
+.form input:focus {
+  box-shadow: 0 0 5px 2px lightblue;
+  outline: none;
+  border: none;
+}
+.form button:hover {
+  background-color: rgb(10, 89, 141);
+}
